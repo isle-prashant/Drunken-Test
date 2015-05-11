@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prashant.testaccelometer.Button_Activity"
+    android:background="@drawable/grass">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/test"
+        android:background="@drawable/bunny"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/dis"
+        android:layout_toEndOf="@+id/dis"
+        android:layout_marginLeft="67dp"
+        android:layout_marginStart="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:id="@+id/dis"
+
+        android:gravity="center|center_horizontal"
+        android:text="Catch Me If you Can"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

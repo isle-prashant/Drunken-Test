@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/content_frame"
+    android:background="#333"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/z1"
+        android:adjustViewBounds="true"
+        android:padding="5dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    android:padding="5dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:text="Rules: \n•Try and catch the bunny as\n  many times as you can\n•Use Both Hand for more \n  acurate result
+        "
+        android:id="@+id/textView"
+        android:layout_gravity="left|bottom" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Test"
+        android:id="@+id/button"
+        android:background="#ffd4483b"
+        android:textColor="#eee"
+        android:layout_gravity="center_vertical|right" />
+</LinearLayout>
+
+</LinearLayout>
